@@ -7,3 +7,4 @@ def named_tuple():
     Student = namedtuple('Student', columns)
     average_marks = sum([int(Student(*input().split()).MARKS) for _ in range(num_students)]) / num_students
     logging.info(f"{average_marks:.2f}")
+    return f"{average_marks:.2f}"
