@@ -1,0 +1,9 @@
+import numpy as np
+import logging
+logging.basicConfig(level=logging.INFO, format='%(message)s')
+def minmax():
+     N, i = input().split()
+     N = int(N)
+     arr = [list(map(int, input().split())) for i in range(N)]
+     logging.info(np.max(np.min(np.array(arr), axis=1)))
+     return np.max(np.min(np.array(arr), axis=1))
