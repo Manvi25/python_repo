@@ -1,5 +1,5 @@
 import unittest
-from src.text_alignment.utils import print_logo
+from src.text_alignment.utils  import print_logo
 
 
 class TextAlignment(unittest.TestCase):
@@ -31,6 +31,33 @@ HHHHHHHHH
                         H     
 ''')
 
+        '''5'''
+
+    def test_testcase2(self):
+        self.assertEqual(print_logo(),''' H 
+HHH
+ HH      HH     
+ HH      HH     
+ HH      HH     
+ HHHHHHHHHH 
+ HH      HH     
+ HH      HH     
+ HH      HH     
+        HHH 
+         H  
+''')
+        '''2'''
+
+    def test_testcase3(self):
+              self.assertEqual(print_logo(),'''H
+H   H   
+H   H   
+HHHHH 
+H   H   
+H   H   
+    H 
+''')
+'''1'''
 
 if __name__ == "__main__":
     unittest.main()
