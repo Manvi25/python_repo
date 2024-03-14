@@ -1,0 +1,2 @@
+from src.iterables_iterators.utils import iterables_iterators
+iterables_iterators()
