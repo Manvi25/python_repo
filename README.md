@@ -16,7 +16,7 @@ Here are some notable features:
   
 - **Linear Algebra Operations**: Leveraging the `linear_algebra` module for performing various linear algebraic calculations, such as matrix operations like multiplication and determinant calculation.
   
-- **Percentage Calculation**: Utilizing the `marks_percentage` function to calculate percentages from marks, streamlining grade calculations based on percentage scores.
+- **Percentage Calculation**: creating the function to calculate percentages from marks, streamlining grade calculations based on percentage scores.
   
 - **Mean, Variance, and Standard Deviation**: Employing the `mean_var_std` functions for efficient computation of mean, variance, and standard deviation, effectively handling statistical calculations on datasets.
   
@@ -34,7 +34,7 @@ Here are some notable features:
   
 - **Data Structure Modification**: Utilizing the `mutation` module for dynamically modifying data structures.
   
-- **Second-Highest Value**: Utilizing the `second_max` function for finding the second-highest value in a dataset.
+- **Second-Highest Value**: finding the second-highest value in a dataset.
   
 - **Matching and Unique Value Retrieval**: Addressing tasks related to matching and retrieving unique values using functions in the `no_idea` file.
   
