@@ -1,1 +1,2 @@
-/src/calendar_module/
+__pycache__/
+*.pyc
