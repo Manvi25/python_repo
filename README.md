@@ -1,133 +1,45 @@
+I have solved various python problems, categorizing them neatly into individual directories. Each assignment its own folder with two distinct files:
 
-Question 1: Finding the Percentage
+1. `src`: This folder acts as the primary directory for organizing code files.
+2. `utils.py`: This file contains reusable utility functions crafted to tackle specific programming hurdles. These functions are meticulously designed to be modular and maintainable, addressing tasks such as sorting algorithms, string manipulations, and mathematical operations.
+3. `driver.py`: Serving as a demonstration, this file showcases the utilization of utility functions from `utils.py`. It includes sample inputs, function invocations, and displays the resulting outcomes.
 
-Import the logging module for logging purposes.
-Define a function named find_percentage to calculate the average marks for a given student.
-Configure logging to display only the message.
-Read the number of student records.
-Initialize a dictionary to store student names and their marks.
-Loop through each student's record and store their name and marks in the dictionary.
-Read the name of the student to query.
-Get the marks of the queried student.
-Calculate the percentage.
-Log the percentage with two decimal places.
-Check if the script is executed as the main program and call the find_percentage function.
+Additionally, there's a `test` folder housing files associated with each challenge. These files encompass test cases aimed at validating the correctness of utility functions, covering diverse scenarios, edge cases, and expected results.
 
+Here are some notable features:
 
-Question 2: Find the Runner-Up Score!
-
-Define a function named find_runner_up to find the second largest element in a set.
-Import the find_runner_up function from the utils module.
-Read the number of elements in the array.
-Read the array elements and map them to integers.
-Call the find_runner_up function with the set of array elements to find the second largest element.
-
-
-Question 3: String Mutation
-
-Define a function named mutate_string to replace a character at a given position in a string.
-Check if the script is executed as the main program.
-Read the original string from input.
-Read the position and character to replace from input.
-Call the mutate_string function with the original string, position, and character.
-Print the modified string.
-
-
-Question 4: Merge The Tools
-
-Define a function named merge_the_tools to split a string into k-sized substrings and remove duplicate characters.
-Initialize an empty string to store the result.
-Iterate over the string in k-sized steps.
-Extract a substring of length k.
-Initialize an empty list to store unique characters.
-Iterate over characters in the substring.
-Add character to the list if not already present.
-Append unique characters to the result string.
-Add newline character to separate each substring.
-Log the result string.
-
-
-Question 5: Text Alignment
-
-Define a function named text_alignment to create a text-based pattern with given thickness.
-Initialize an empty string to store the result.
-Create the top cone of the pattern.
-Create the top pillars of the pattern.
-Create the middle belt of the pattern.
-Create the bottom pillars of the pattern.
-Create the bottom cone of the pattern.
-Return the result string.
-
-
-Question 6: String Formatting
-
-Define a function named print_formatted to print formatted numbers in decimal, octal, hexadecimal, and binary formats.
-Calculate the width required for formatting based on the number of bits needed to represent the given number in binary.
-Iterate through numbers from 1 to the given number+1.
-Format and print the numbers in decimal, octal, hexadecimal, and binary formats using string formatting.
-Read the ind function.
-
-
-Question 7: Calendar Module
-
-Import the calendar module for date-related functionalities.
-Define a function named print_day to print the day of the week for a given date.
-Find the day of the week for the given date using the calendar.weekday function.
-Define a list of days of the week.
-Log and return the day of the week.
-
-
-Question 8: Collections.namedtuple
-
-Import the namedtuple class from the collections module to define a custom tuple type.
-Define a function named print_average to calculate and print the average marks of students.
-Read the total number of students.
-Define the namedtuple structure for student information.
-Extract marks of each student and store in a list.
-Calculate the average marks and log it.
-Return the average marks.
-
-
-Question 9: Time Delta
-
-Import the logging module for logging purposes.
-Define the time_delta function to calculate the time difference between two timestamps.
-Initialize an empty string to store the result.
-Configure logging to display only the message.
-Import the datetime module for working with date and time.
-Parse the input timestamps into datetime objects using the strptime method.
-Calculate the absolute difference in seconds between the timestamps.
-Convert the difference to an integer and store it as a string.
-Log the difference in seconds.
-Read the number of test cases.
-Iterate through each test case, reading the two timestamps, and calculating the time difference.
-
-
-Question 10: floor ceil rint
-
-Define the floor_ceil_rint function to perform floor, ceil, and rint operations on the input array.
-Import the numpy module for array operations.
-Call the floor_ceil_rint function with the input array, performing floor, ceil, and rint operations.
-
-
-Question 11: Min Max
-
-Import numpy: Import the numpy library for numerical operations.
-Read the dimensions of the array (N rows and M columns) from the user.
-Create an empty list rows to store the rows of integers.
-Iterate over each row:
-Read a row of integers from the user.
-Split the input string into individual integers.
-Convert the integers to integers (from strings).
-Add each row to the list of rows.
-Convert the list of rows into a numpy array using numpy.array().
-Find the minimum value in each row of the array using numpy.min(arr, axis=1) (along the rows), then find the maximum of those minimum values using numpy.max().
-Print and return the maximum of the minimum values.
-
-
-Question 12: Linear Algebra
-
-Define a function named calculate_determinant() to encapsulate the code logic.
-User prompts to input the size of the square matrix and its elements.
-Calculation of the determinant using numpy.linalg.det().
-Printing the determinant rounded to 2 decimal places.
+- **Calendar Module**: Utilizing Python's built-in calendar module for date-related operations, including functionalities like determining the day of the week for a given date.
+  
+- **Floor, Ceiling, and Rounding**: Employing functions like floor, ceil, and rint from the math module for rounding operations on numerical data.
+  
+- **Iterables**: Harnessing helper functions from the `iterators_iterables` module to enhance interaction with iterators and iterables in Python, facilitating seamless traversal and manipulation of iterable objects.
+  
+- **Linear Algebra Operations**: Leveraging the `linear_algebra` module for performing various linear algebraic calculations, such as matrix operations like multiplication and determinant calculation.
+  
+- **Percentage Calculation**: Utilizing the `marks_percentage` function to calculate percentages from marks, streamlining grade calculations based on percentage scores.
+  
+- **Mean, Variance, and Standard Deviation**: Employing the `mean_var_std` functions for efficient computation of mean, variance, and standard deviation, effectively handling statistical calculations on datasets.
+  
+- **String Formatting**: Utilizing convenient string formatting functions available in the `string_format` module to simplify the process of formatting strings with placeholders and variables.
+  
+- **Text Alignment**: Accessing text alignment functionalities provided by the `text_alignment` module to align text strings according to specified formatting requirements.
+  
+- **Time Operations**: Employing the `time_delta` module for managing time differences, performing time arithmetic operations, and handling time-related tasks effectively.
+  
+- **Email Validation**: Ensuring the validity of email addresses using the `validate_mail` function, validating email addresses based on predefined criteria.
+  
+- **Duplicate Character Removal**: Utilizing the `merge_tool` function to remove duplicate characters from substrings.
+  
+- **Finding Min and Max Values**: Employing the `min_max` function for efficiently finding minimum and maximum values in datasets.
+  
+- **Data Structure Modification**: Utilizing the `mutation` module for dynamically modifying data structures.
+  
+- **Second-Highest Value**: Utilizing the `second_max` function for finding the second-highest value in a dataset.
+  
+- **Matching and Unique Value Retrieval**: Addressing tasks related to matching and retrieving unique values using functions in the `no_idea` file.
+  
+- **Data Accumulation**: Efficiently accumulating data using the `piling_up` function.
+  
+- **Word Order**: Implementing functionality for maintaining the order of words.
+  
+- **Working with Named Tuples**: Utilizing named tuples for structured data storage and manipulation.
