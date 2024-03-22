@@ -1,12 +1,12 @@
 I have solved various python problems, categorizing them neatly into individual directories. Each assignment its own folder with two distinct files:
 
 1. `src`: This folder acts as the primary directory for organizing code files.
-2. `utils.py`: This file contains reusable utility functions crafted to tackle specific programming hurdles. These functions are meticulously designed to be modular and maintainable, addressing tasks such as sorting algorithms, string manipulations, and mathematical operations.
-3. `driver.py`: Serving as a demonstration, this file showcases the utilization of utility functions from `utils.py`. It includes sample inputs, function invocations, and displays the resulting outcomes.
+2. `utils.py`: This file contains reusable utility functions for  specific assignments. 
+3. `driver.py`: Serving as a demonstration, this file showcases the utilization of utility functions from `utils.py`.
 
-Additionally, there's a `test` folder housing files associated with each challenge. These files encompass test cases aimed at validating the correctness of utility functions, covering diverse scenarios, edge cases, and expected results.
+Additionally, there's a `test` folder for implementing unit testing for each assignmnent.
 
-Here are some notable features:
+Assignments done are:
 
 - **Calendar Module**: Utilizing Python's built-in calendar module for date-related operations, including functionalities like determining the day of the week for a given date.
   
